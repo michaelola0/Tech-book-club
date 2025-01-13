@@ -1,0 +1,23 @@
+{
+  "name": "tech-book-club",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelola0/Tech-book-club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelola0/Tech-book-club/issues"
+  },
+  "homepage": "https://github.com/michaelola0/Tech-book-club#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
