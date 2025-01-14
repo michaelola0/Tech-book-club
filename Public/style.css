@@ -1,4 +1,6 @@
-*, ::before, ::after {
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +54,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,12 +556,125 @@ video {
   display: none;
 }
 
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity, 1));
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-cyan-200 {
-  --tw-text-opacity: 1;
-  color: rgb(165 243 252 / var(--tw-text-opacity, 1));
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-\[100\%\]{
+  height: 100%;
+}
+
+.h-\[606px\]{
+  height: 606px;
+}
+
+.w-\[100\%\]{
+  width: 100%;
+}
+
+.w-\[110px\]{
+  width: 110px;
+}
+
+.w-\[120px\]{
+  width: 120px;
+}
+
+.w-\[189\.86px\]{
+  width: 189.86px;
+}
+
+.max-w-\[1174px\]{
+  max-width: 1174px;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-1{
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.gap-16{
+  gap: 4rem;
+}
+
+.gap-20{
+  gap: 5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.bg-\[\#FAF5F3\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 245 243 / var(--tw-bg-opacity, 1));
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pt-9{
+  padding-top: 2.25rem;
+}
+
+.font-serif{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-\[62px\]{
+  font-size: 62px;
 }
