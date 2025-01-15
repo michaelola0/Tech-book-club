@@ -595,6 +595,10 @@ video {
   height: 520px;
 }
 
+.h-\[318\.5px\]{
+  height: 318.5px;
+}
+
 .w-\[100\%\]{
   width: 100%;
 }
@@ -615,12 +619,20 @@ video {
   max-width: 1170px;
 }
 
+.max-w-\[431px\]{
+  max-width: 431px;
+}
+
 .grow{
   flex-grow: 1;
 }
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-rows-1{
@@ -635,12 +647,20 @@ video {
   flex-direction: column;
 }
 
+.flex-col-reverse{
+  flex-direction: column-reverse;
+}
+
 .items-start{
   align-items: flex-start;
 }
 
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
 }
 
 .gap-1{
@@ -675,12 +695,40 @@ video {
   gap: 120px;
 }
 
+.gap-\[34px\]{
+  gap: 34px;
+}
+
+.gap-\[14px\]{
+  gap: 14px;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-\[80px\]{
+  gap: 80px;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
 
 .rounded-lg{
   border-radius: 0.5rem;
+}
+
+.rounded-\[20px\]{
+  border-radius: 20px;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.rounded-\[12px\]{
+  border-radius: 12px;
 }
 
 .border-2{
@@ -739,6 +787,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-20{
   padding-bottom: 5rem;
 }
@@ -790,6 +843,13 @@ video {
   font-weight: 600;
 }
 
+.text-textPreset2Mobile{
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -2px;
+  font-weight: 600;
+}
+
 .text-neutral700{
   --tw-text-opacity: 1;
   color: rgb(56 81 89 / var(--tw-text-opacity, 1));
@@ -805,12 +865,36 @@ video {
 }
 
 @media (max-width: 1024px){
+  .tablet\:flex{
+    display: flex;
+  }
+
   .tablet\:h-\[790\.04px\]{
     height: 790.04px;
   }
 
+  .tablet\:h-\[653\.71px\]{
+    height: 653.71px;
+  }
+
+  .tablet\:w-\[100\%\]{
+    width: 100%;
+  }
+
+  .tablet\:max-w-\[100\%\]{
+    max-width: 100%;
+  }
+
+  .tablet\:max-w-\[508px\]{
+    max-width: 508px;
+  }
+
   .tablet\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .tablet\:gap-10{
+    gap: 2.5rem;
   }
 
   .tablet\:px-8{
@@ -822,6 +906,26 @@ video {
 @media (max-width: 430px){
   .mobile\:h-\[384\.92px\]{
     height: 384.92px;
+  }
+
+  .mobile\:h-\[653\.71px\]{
+    height: 653.71px;
+  }
+
+  .mobile\:h-\[318\.5px\]{
+    height: 318.5px;
+  }
+
+  .mobile\:max-w-\[100\%\]{
+    max-width: 100%;
+  }
+
+  .mobile\:gap-20{
+    gap: 5rem;
+  }
+
+  .mobile\:rounded-\[12px\]{
+    border-radius: 12px;
   }
 
   .mobile\:px-4{
@@ -840,6 +944,13 @@ video {
     font-size: 16px;
     line-height: 130%;
     letter-spacing: -1px;
+    font-weight: 600;
+  }
+
+  .mobile\:text-textPreset2Mobile{
+    font-size: 34px;
+    line-height: 130%;
+    letter-spacing: -2px;
     font-weight: 600;
   }
 }
