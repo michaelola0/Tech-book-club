@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="flex flex-col bg-[#FAF5F3]">
-        <!-- Main Container -->
-        <div class="max-w-[1174px] w-[100%] mx-auto flex flex-col gap-20 pt-9 pb-20">
+    <header class="bg-neutral50 px-[135px] tablet:px-8 mobile:px-4">
+        <div class="max-w-[1170px] w-[100%] mx-auto">
+            <!-- Main Container -->
+        <div class="w-[100%] flex flex-col gap-20  pt-9 pb-20 ">
             <!-- Navbar -->
             <nav>
                 <a href="">
@@ -17,20 +18,23 @@
                 </a>
             </nav>
             <!-- Hero section -->
-            <div class="grid grid-rows-1 grid-cols-2 gap-16 items-center">
+            <div class="grid grid-rows-1 grid-cols-2 gap-16 items-center tablet:grid-cols-1">
                 <!-- Hero text wrap -->
                 <div class="flex flex-col gap-8">
-                    <div>
-                        <h1 class="text-[62px] font-martianMono">Join the ultimate tech book club</h1>
-                        <p>Turn your reading time into learning time with fellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
+                    <div class="flex flex-col gap-6">
+                        <!-- h1 gradient bg text clip -->
+                        <div class="bg-h1-gradient bg-clip-text text-transparent">
+                            <h1 class="font-martianMono text-textPreset1 mobile:text-textPreset1Mobile">Join the ultimate tech book club</h1>
+                        </div>
+                        <p class="font-Inter text-neutral700 text-textPreset5">Turn your reading time into learning time with fellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
                     </div>
-                    <div class="flex flex-col gap-3">
-                        <a href="">REVIEW MEMBERSHIP OPTIONS</a>
+                    <div class="flex flex-col items-start gap-5">
+                        <a href="" class="text-neutral900 font-martianMono px-6 py-5 border-2 border-solid border-neutral900 rounded-lg text-textPreset6 mobile:text-textPreset6Mobile">REVIEW MEMBERSHIP OPTIONS</a>
                         <div class="flex flex-row gap-3 items-center">
                             <img src="./images/Testimonials-images.png" alt="" class="w-[110px] h-10">
-                            <div>
+                            <div class="flex flex-col gap-1">
                                 <img src="./images/Stars-container.svg" alt="" class="w-[120px] h-6">
-                                <p>
+                                <p class="font-martianMono text-neutral700 text-textPreset7">
                                     200+ developers joined already
                                 </p>
                             </div>
@@ -43,6 +47,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        
         
         
 
