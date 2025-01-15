@@ -591,6 +591,10 @@ video {
   height: 606px;
 }
 
+.h-\[520px\]{
+  height: 520px;
+}
+
 .w-\[100\%\]{
   width: 100%;
 }
@@ -665,6 +669,10 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-\[120px\]{
+  gap: 120px;
 }
 
 .overflow-hidden{
@@ -773,6 +781,13 @@ video {
   line-height: 120%;
   letter-spacing: -1px;
   font-weight: 400;
+}
+
+.text-textPreset2{
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -2px;
+  font-weight: 600;
 }
 
 .text-neutral700{
