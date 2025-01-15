@@ -730,6 +730,10 @@ video {
   padding-top: 2.25rem;
 }
 
+.pt-6{
+  padding-top: 1.5rem;
+}
+
 .font-Inter{
   font-family: 'Inter', serif;
 }
@@ -781,6 +785,10 @@ video {
 }
 
 @media (max-width: 1024px){
+  .tablet\:h-\[790\.04px\]{
+    height: 790.04px;
+  }
+
   .tablet\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -792,6 +800,10 @@ video {
 }
 
 @media (max-width: 430px){
+  .mobile\:h-\[384\.92px\]{
+    height: 384.92px;
+  }
+
   .mobile\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
