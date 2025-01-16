@@ -8,21 +8,21 @@
     <link rel="shortcut icon" href="./images/Favicon-Icon.svg" type="image/x-icon">
 </head>
 <body class="font-Inter">
-    <div class="bg-white flex flex-col gap-[120px] tablet:gap-20 mobile:gap-16">
-        <header class="bg-neutral50 px-[135px] pt-9 pb-20 tablet:px-8 mobile:px-4">
+    <div class=" bg-white flex flex-col gap-[120px] tablet:gap-20 mobile:gap-16">
+        <header class="relative bg-neutral50 px-[135px] pt-9 pb-20 tablet:px-8 mobile:px-4 overflow-hidden">
             <div class="max-w-[1170px] w-[100%] mx-auto">
                 <!-- Main Container -->
             <div class="w-[100%] flex flex-col gap-20 tablet:gap-16 mobile:gap-12">
                 <!-- Navbar -->
-                <nav>
+                <nav class="relative">
                     <a href="">
                         <img src="./images/Logo.png" alt="" class="w-[189.86px] h-9">
                     </a>
                 </nav>
                 <!-- Hero section -->
-                <div class="grid grid-rows-1 grid-cols-2 gap-16 items-center tablet:grid-cols-1">
+                <div class="relative z-20 grid grid-rows-1 grid-cols-2 gap-16 items-center tablet:grid-cols-1">
                     <!-- Hero text wrap -->
-                    <div class="flex flex-col gap-8">
+                    <div class=" flex flex-col gap-8">
                         <div class="flex flex-col gap-6">
                             <!-- h1 gradient bg text clip -->
                             <div class="bg-h1-gradient bg-clip-text text-transparent">
@@ -48,11 +48,17 @@
                         <img src="./images/Hero-Image.jpg" alt="" class="w-[100%] h-[100%] object-cover">
                     </div>
                 </div>
+
+                <!-- Headers abosolute images -->
+                <img src="./images/Hero-bg-pattern.svg" alt="" class=" absolute top-0 left-0 w-[100%] h-[100%] object-cover mobile-[h-auto]">
+                <img src="./images/glow-bg.png" alt="" class="size-[684px] absolute bottom-[-212px] right-[-226px] z-[2px] tablet:bottom-[-296px] tablet:right-[-339px] mobile:hidden">
+
             </div>
             </div>
         </header>
     
         <main class="flex flex-col gap-[120px] tablet:gap-20 mobile:gap-16">
+            <!-- Read together section -->
             <section class="px-[135px] tablet:px-8 mobile:px-4">
                 <div class="max-w-[1170px] mx-auto grid grid-cols-2 grid-rows-1 gap-[80px] items-center rounded-[20px] tablet:flex flex-col-reverse tablet:gap-10">
                     <div class="h-[520px] w-[100%] overflow-hidden rounded-[20px] tablet:h-[653.71px] mobile:h-[318.5px] mobile:rounded-[12px]">
@@ -88,6 +94,7 @@
                 </div>
             </section>
 
+            <!-- Book club section -->
             <section class="px-[135px] tablet:px-8 mobile:px-4">
                 <div class="relative max-w-[1170px] grid grid-cols-2 grid-rows-1 items-center gap-20 tablet:gap-10 tablet:grid-cols-1">
                     <div class="flex flex-col gap-6">
@@ -111,6 +118,13 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Card section -->
+             <section>
+                <div>
+                    
+                </div>
+             </section>
     
             
     
