@@ -964,6 +964,10 @@ video {
     max-width: 508px;
   }
 
+  .tablet\:max-w-\[534px\]{
+    max-width: 534px;
+  }
+
   .tablet\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
