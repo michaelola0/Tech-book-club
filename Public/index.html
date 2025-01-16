@@ -8,11 +8,11 @@
     <link rel="shortcut icon" href="./images/Favicon-Icon.svg" type="image/x-icon">
 </head>
 <body class="font-Inter">
-    <div class="bg-white flex flex-col gap-[120px] mobile:gap-20">
+    <div class="bg-white flex flex-col gap-[120px] tablet:gap-20 mobile:gap-16">
         <header class="bg-neutral50 px-[135px] pt-9 pb-20 tablet:px-8 mobile:px-4">
             <div class="max-w-[1170px] w-[100%] mx-auto">
                 <!-- Main Container -->
-            <div class="w-[100%] flex flex-col gap-20">
+            <div class="w-[100%] flex flex-col gap-20 tablet:gap-16 mobile:gap-12">
                 <!-- Navbar -->
                 <nav>
                     <a href="">
@@ -45,14 +45,14 @@
                     </div>
                     <!-- Hero image wrap -->
                     <div class="w-[100%] h-[606px] overflow-hidden rounded-lg tablet:h-[790.04px] mobile:h-[384.92px]">
-                        <img src="./images/Hero Image.jpg" alt="" class="w-[100%] h-[100%] object-cover">
+                        <img src="./images/Hero-Image.jpg" alt="" class="w-[100%] h-[100%] object-cover">
                     </div>
                 </div>
             </div>
             </div>
         </header>
     
-        <main>
+        <main class="flex flex-col gap-[120px]">
             <section class="px-[135px] tablet:px-8 mobile:px-4">
                 <div class="max-w-[1170px] mx-auto grid grid-cols-2 grid-rows-1 gap-[80px] items-center rounded-[20px] tablet:flex flex-col-reverse tablet:gap-10">
                     <div class="h-[520px] w-[100%] overflow-hidden rounded-[20px] tablet:h-[653.71px] mobile:h-[318.5px] mobile:rounded-[12px]">
@@ -84,6 +84,30 @@
                                 <p class="text-neutral700 text-textPreset5">Author Q&A sessions with tech thought leaders</p>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="px-[135px]">
+                <div class="relative max-w-[1170px] grid grid-cols-2 grid-rows-1 items-center gap-20">
+                    <div class="flex flex-col gap-6">
+                        <div class="relative">
+                            <h2 class="text-neutral900 font-martianMono text-textPreset2">Not your average book <span>club </span></h2>
+                            <img src="./images/Circle-path.svg" alt="" class="absolute left-[142px] bottom-[0px]">
+                        </div>
+                        
+                        <p class="text-neutral700 text-textPreset5">Connect with a community that speaks your language - from <span class="text-textPreset5Semibold">Python</span> to <span class="text-textPreset5Semibold">TypeScript</span> and everything in between.
+                            Our discussions blend technical depth with practical applications.</p>
+                    </div>
+
+                    <div class="h-[520px] w-[100%] rounded-[20px] overflow-hidden">
+                        <img src="./images/Connect-image.png" alt="" class="h-[100%] w-[100%] object-cover">
+                    </div>
+
+                    <div class="absolute left-[46.4%] top-[351px] w-[119.56px] h-[138px] flex flex-row flex-wrap justify-between gap-y-[11px]">
+                        <img src="./images/TS-Logo.svg" alt="" class="size-[72px] mx-auto">
+                        <img src="./images/Github-logo.svg" alt="" class="size-[55px]">
+                        <img src="./images/React-Logo.svg" alt="" class="size-[43px]">
                     </div>
                 </div>
             </section>
