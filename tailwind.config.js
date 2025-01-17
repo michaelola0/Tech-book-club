@@ -19,6 +19,7 @@ module.exports = {
         'neutral700': '#385159',
         'neutral50': '#FAF5F3',
         'neutral0': '#FFFFFF',
+        'light-salmon':'#FEA36F',
       },
 
       backgroundImage: {
