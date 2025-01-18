@@ -20,6 +20,7 @@ module.exports = {
         'neutral50': '#FAF5F3',
         'neutral0': '#FFFFFF',
         'light-salmon':'#FEA36F',
+        'salmon50':'#FFF5EF',
       },
 
       backgroundImage: {
@@ -51,6 +52,7 @@ module.exports = {
 
       borderColor: {
         'neutral900': '#062630',
+        'neutral200':'#E6E1DF',
       },
     },
   },
