@@ -606,28 +606,20 @@ video {
   top: 351px;
 }
 
-.bottom-\[202px\]{
-  bottom: 202px;
+.bottom-0{
+  bottom: 0px;
 }
 
-.right-\[24px\]{
-  right: 24px;
+.top-\[50\%\]{
+  top: 50%;
 }
 
-.top-\[202px\]{
-  top: 202px;
+.top-\[40\%\]{
+  top: 40%;
 }
 
-.left-\[24px\]{
-  left: 24px;
-}
-
-.left-\[\]{
-  left: ;
-}
-
-.top-\[\]{
-  top: ;
+.left-\[40\%\]{
+  left: 40%;
 }
 
 .z-10{
@@ -680,12 +672,18 @@ video {
   height: 72px;
 }
 
-.h-10{
-  height: 2.5rem;
+.size-6{
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-.h-6{
-  height: 1.5rem;
+.size-\[22px\]{
+  width: 22px;
+  height: 22px;
+}
+
+.h-10{
+  height: 2.5rem;
 }
 
 .h-9{
@@ -702,6 +700,10 @@ video {
 
 .h-\[1px\]{
   height: 1px;
+}
+
+.h-\[24px\]{
+  height: 24px;
 }
 
 .h-\[31\.87px\]{
@@ -724,18 +726,6 @@ video {
   height: auto;
 }
 
-.h-\[684px\]{
-  height: 684px;
-}
-
-.h-\[28px\]{
-  height: 28px;
-}
-
-.h-\[24px\]{
-  height: 24px;
-}
-
 .w-\[100\%\]{
   width: 100%;
 }
@@ -748,28 +738,12 @@ video {
   width: 119.56px;
 }
 
-.w-\[120px\]{
-  width: 120px;
-}
-
 .w-\[189\.86px\]{
   width: 189.86px;
 }
 
 .w-\[502px\]{
   width: 502px;
-}
-
-.w-\[684px\]{
-  width: 684px;
-}
-
-.w-\[164\]{
-  width: 164;
-}
-
-.w-\[164px\]{
-  width: 164px;
 }
 
 .w-\[97\.1px\]{
@@ -796,12 +770,8 @@ video {
   max-width: 970px;
 }
 
-.max-w-\[\]{
-  max-width: ;
-}
-
-.shrink-0{
-  flex-shrink: 0;
+.max-w-\[685px\]{
+  max-width: 685px;
 }
 
 .grow{
@@ -916,6 +886,10 @@ video {
   gap: 80px;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-y-\[11px\]{
   row-gap: 11px;
 }
@@ -944,6 +918,10 @@ video {
   border-width: 2px;
 }
 
+.border-t-\[1px\]{
+  border-top-width: 1px;
+}
+
 .border-solid{
   border-style: solid;
 }
@@ -956,6 +934,21 @@ video {
 .border-neutral900{
   --tw-border-opacity: 1;
   border-color: rgb(6 38 48 / var(--tw-border-opacity, 1));
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
+.border-neutral700{
+  --tw-border-opacity: 1;
+  border-color: rgb(56 81 89 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#385159\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(56 81 89 / var(--tw-border-opacity, 1));
 }
 
 .bg-neutral50{
@@ -971,6 +964,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-neutral900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 38 48 / var(--tw-bg-opacity, 1));
 }
 
 .bg-h1-gradient{
@@ -1015,6 +1013,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1025,9 +1028,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-20{
@@ -1036,6 +1039,10 @@ video {
 
 .pt-9{
   padding-top: 2.25rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
 }
 
 .text-center{
@@ -1113,13 +1120,6 @@ video {
   font-weight: 400;
 }
 
-.text-textPreset2Mobile{
-  font-size: 34px;
-  line-height: 130%;
-  letter-spacing: -2px;
-  font-weight: 600;
-}
-
 .uppercase{
   text-transform: uppercase;
 }
@@ -1136,6 +1136,16 @@ video {
 
 .text-transparent{
   color: transparent;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-neutral50{
+  --tw-text-opacity: 1;
+  color: rgb(250 245 243 / var(--tw-text-opacity, 1));
 }
 
 @media (max-width: 1024px){
@@ -1230,6 +1240,10 @@ video {
     padding-bottom: 1.5rem;
   }
 
+  .tablet\:pt-16{
+    padding-top: 4rem;
+  }
+
   .tablet\:text-left{
     text-align: left;
   }
@@ -1264,12 +1278,24 @@ video {
     max-width: 300px;
   }
 
+  .mobile\:max-w-\[319px\]{
+    max-width: 319px;
+  }
+
   .mobile\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .mobile\:grid-rows-3{
     grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
+  .mobile\:flex-col{
+    flex-direction: column;
+  }
+
+  .mobile\:items-center{
+    align-items: center;
   }
 
   .mobile\:gap-12{
@@ -1302,6 +1328,10 @@ video {
     padding-bottom: 3rem;
   }
 
+  .mobile\:pt-12{
+    padding-top: 3rem;
+  }
+
   .mobile\:text-textPreset1Mobile{
     font-size: 38px;
     line-height: 120%;
@@ -1316,16 +1346,16 @@ video {
     font-weight: 600;
   }
 
-  .mobile\:text-textPreset6Mobile{
-    font-size: 16px;
-    line-height: 130%;
+  .mobile\:text-textPreset3Mobile{
+    font-size: 24px;
+    line-height: 110%;
     letter-spacing: -1px;
     font-weight: 600;
   }
 
-  .mobile\:text-textPreset3Mobile{
-    font-size: 24px;
-    line-height: 110%;
+  .mobile\:text-textPreset6Mobile{
+    font-size: 16px;
+    line-height: 130%;
     letter-spacing: -1px;
     font-weight: 600;
   }
