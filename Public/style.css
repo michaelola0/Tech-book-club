@@ -622,6 +622,14 @@ video {
   left: 40%;
 }
 
+.left-\[30\%\]{
+  left: 30%;
+}
+
+.top-\[30\%\]{
+  top: 30%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -912,6 +920,14 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-tl-lg{
+  border-top-left-radius: 0.5rem;
+}
+
+.rounded-tr-lg{
+  border-top-right-radius: 0.5rem;
 }
 
 .border-2{
