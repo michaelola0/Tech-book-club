@@ -27,6 +27,9 @@ module.exports = {
         'h1-gradient': 'linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%)',
         'neutral50': '#FAF5F3',
         'glow-bg': '#9CC9DA',
+        'btn1Hover': 'linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)',
+        'btn2Hover': 'linear-gradient(90deg, #385159 0%, #062630 100%)',
+        
       },
 
       fontFamily: {
